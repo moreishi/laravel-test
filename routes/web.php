@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('test', 'TestController@test');
 
 Route::post('test2', 'TestController@post');
+
+Route::resource('reports','ReportController');

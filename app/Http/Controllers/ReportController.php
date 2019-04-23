@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class TestController extends Controller
+class ReportController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class TestController extends Controller
      */
     public function index()
     {
-        return 'You have reached the test page';
+        return view('reports.index');
     }
 
     /**
@@ -21,9 +21,9 @@ class TestController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function post()
+    public function create()
     {
-        return 'Why am I not getting this response?';
+        //
     }
 
     /**
@@ -80,9 +80,5 @@ class TestController extends Controller
     public function destroy($id)
     {
         //
-    }
-
-    public function test() {
-        return "Fixed, missing action test() method from the controller.";
     }
 }

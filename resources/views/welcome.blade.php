@@ -91,12 +91,15 @@
 
                <p><strong>Issues that need to be addressed:</strong></p>
 
-               <ul>
+               <ul style="text-align: left">
                    <li>Fix this list so it justify to the left without losing the format of the rest of page</li>
                    <li>Go to route <a href="test">/test</a> and tell me specifically what is wrong and fix it.</li>
+                   <li style="list-style-type: none"><small style="color: green">- Missing action test() method from the controller. To fix it just add a test() action method.</small></li>
                    <li>Create a resourceful Controller and Model for a object called Report</li>
                    <li>Add a route that points to your Report Controller and make sure it uses a Blade View</li>
+                   <li style="list-style-type: none"><small style="color: green">- This is the new added endpoint for Report Controller. <a href="/reports">/reports</a></small></li>
                    <li>Can you explain to me why the route <a href="test2">/test2</a> is failing</li>
+                   <li style="list-style-type: none"><small style="color: green">- It is failing because the router is using POST method request using GET will fix the issue.</small></li>
                    <li>Install the package `laravel/telescope` into your copy of the repo</li>
                    <li>Commit your updates to a forked repo for me to download.</li>
                </ul>
